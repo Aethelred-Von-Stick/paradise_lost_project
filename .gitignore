@@ -6,6 +6,7 @@
 *.lo
 *.o
 *.obj
+*.os
 
 # Precompiled Headers
 *.gch
@@ -26,7 +27,15 @@
 *.a
 *.lib
 
+# Dynamic library directories
+x11/
+osx/
+win64/
+
 # Executables
 *.exe
 *.out
 *.app
+
+# Scons
+.sconsign.dblite
